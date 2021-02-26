@@ -9,10 +9,14 @@ public class Example {
 	public Example() {
 		System.out.println("Ashok");
 	}
+	public  Example(String name) {
+		System.out.println(name);
+	}
 	
 	public static void main(String[] args) {
 		Example e=new Example(10);
-		Example e1=new Example();
+		Example e1=new Example("Raj");
+		//Example e1=new Example();
 	}
  
 }
